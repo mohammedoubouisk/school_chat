@@ -1,0 +1,59 @@
+.chat{
+    height: 75vh;
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0  0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffccbc;
+    overflow: auto;
+}
+textarea{
+    resize: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    border: none;
+}
+.send{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+   
+
+}
+body{
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 0 0px;
+    margin: auto;
+    
+}
+.fa-paper-plane{
+    font-size: 25px;
+    background: #00887A;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+p{
+    color: rgb(2, 43, 30);
+    font-size: 25px;
+}
+button{
+    background-color: red;
+}

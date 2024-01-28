@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccc;
+    box-sizing: border-box;
+
+}
+.lang{
+    display: flex;
+}
+.lang p{
+    padding-right: 10px;
+    cursor: pointer;
+    color: rgb(8, 8, 145);
+    font-weight: bold;
+}
+.logo img{
+    width: 100px;
+}
+.titre h1{
+    text-align: center;
+    user-select: none;
+    text-shadow: 1px 1px 1px rgb(62, 59, 87);
+}
+fieldset{
+    width: 90vw;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(165, 245, 253, 0.089);
+
+}
+td{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(45, 17, 17);
+    padding-top: 20px;
+}
+table tr{
+    padding: 2000px;
+}
+table{
+    text-align: center;
+    align-items: center;
+}
+table tr td input{
+    padding: 6px 90px;    
+    font-size: 16px;
+}
+legend{
+    color: rgb(15, 8, 104);
+}
+select{
+    padding: 6px 90px;
+    font-size: 16px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+#valider{
+    padding: 10px 60px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#cancel{
+    padding: 10px 60px;
+    background: rgba(145, 2, 2, 0.938);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inscr{
+    color: red;
+    background-color: rgba(121, 247, 138, 0.201);
+    
+}

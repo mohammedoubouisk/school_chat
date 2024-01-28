@@ -1,0 +1,29 @@
+th,td{
+    text-align: center;
+    padding: 15px 100px;
+    font-size: 20px;
+    border: 1px solid grey;
+    color: rgb(8, 67, 51);
+    
+}
+th{
+    background-color: #d3e3fc;
+
+
+}
+td{
+    background-color: #ffccbc;
+   
+
+
+}
+tr{
+    padding-top: 20px;
+}
+table{
+    margin-top: 40px;
+
+}
+body{
+    background-color: #fff;
+}
